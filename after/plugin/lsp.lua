@@ -6,6 +6,7 @@ lsp.ensure_installed({
     'pyright',
     'tsserver',
     'eslint',
+    'gopls',
 })
 
 -- Fix Undefined global 'vim'

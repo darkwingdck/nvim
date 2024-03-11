@@ -51,4 +51,11 @@ return require('packer').startup(function(use)
 	    { 'jose-elias-alvarez/null-ls.nvim' }
 	}
     }
+    use {
+	"windwp/nvim-autopairs",
+	event = "InsertEnter",
+	config = function()
+	    require("nvim-autopairs").setup {}
+	end
+    }
 end)

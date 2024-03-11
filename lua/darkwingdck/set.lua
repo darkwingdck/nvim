@@ -11,7 +11,7 @@ vim.opt.relativenumber = true
 --vim.opt.smartindent = true
 
 vim.opt.wrap = true
-
+vim.opt.whichwrap:append("<,>,h,l,[,]")
 vim.opt.swapfile = false
 vim.opt.backup = false
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
