@@ -58,4 +58,10 @@ return require('packer').startup(function(use)
 	    require("nvim-autopairs").setup {}
 	end
     }
+    use {
+	"brenoprata10/nvim-highlight-colors",
+	config = function()
+	    require("nvim-highlight-colors").setup {}
+	end
+    }
 end)
